@@ -1,0 +1,30 @@
+{
+  "name": "ucode-sdk",
+  "version": "1.0.20",
+  "description": "The Ucode SDK is a comprehensive JavaScript package designed for the Ucode Admin Panel, providing a unified and easy-to-use interface for interacting with Ucode APIs. This SDK consolidates various API functionalities into a single global package, enabling seamless integration and management of Ucode’s authentication, items, files, and custom functions.",
+  "main": "dist/ucode_sdk.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Baxa1997/ucode_sdk_react.git"
+  },
+  "keywords": [
+    "ucode_sdk"
+  ],
+  "author": "Bakhriddin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Baxa1997/ucode_sdk_react/issues"
+  },
+  "homepage": "https://github.com/Baxa1997/ucode_sdk_react#readme",
+  "devDependencies": {
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "axios": "^1.7.7"
+  }
+}

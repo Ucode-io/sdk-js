@@ -1,0 +1,62 @@
+Arguments: 
+  /Users/bahriddinnurullaev/.nvm/versions/node/v20.5.0/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js add ucode_sdk@latest
+
+PATH: 
+  /Users/bahriddinnurullaev/.nvm/versions/node/v20.5.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.5.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/ucode_sdk: Not found
+      at params.callback [as _callback] (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:66145:18)
+      at self.callback (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:140890:22)
+      at Request.emit (node:events:514:28)
+      at Request.<anonymous> (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:141862:10)
+      at Request.emit (node:events:514:28)
+      at IncomingMessage.<anonymous> (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:628:28)
+      at IncomingMessage.emit (node:events:526:35)
+      at endReadableNT (node:internal/streams/readable:1376:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "ucode-sdk",
+    "version": "1.0.3",
+    "description": "The Ucode SDK is a comprehensive JavaScript package designed for the Ucode Admin Panel, providing a unified and easy-to-use interface for interacting with Ucode APIs. This SDK consolidates various API functionalities into a single global package, enabling seamless integration and management of Ucode’s authentication, items, files, and custom functions.",
+    "main": "dist/ucode_sdk.js",
+    "scripts": {
+      "build": "webpack --config webpack.config.js",
+      "test": "npm run dev"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Baxa1997/ucode_sdk_react.git"
+    },
+    "keywords": [
+      "ucode_sdk"
+    ],
+    "author": "Bakhriddin",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Baxa1997/ucode_sdk_react/issues"
+    },
+    "homepage": "https://github.com/Baxa1997/ucode_sdk_react#readme",
+    "devDependencies": {
+      "webpack": "^5.96.1",
+      "webpack-cli": "^5.1.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
